@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Conociendo Tarma</title>
+
+
+    <!-- GOOGLE FONTS -->
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+
+    <!-- FONT AWESOME -->
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+
+    <!-- LEAFLET -->
+
+    <link rel="stylesheet"
+          href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+
+    <!-- TU CSS ORIGINAL -->
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     LOADER
+===================================================== -->
+
+<div id="loader">
+
+    <div class="loader-circle"></div>
+
+    <h2>
+        Cargando Conociendo Tarma...
+    </h2>
+
+</div>
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<header>
+
+    <div class="logoContainer">
+
+        <img
+            src="img/logo.png"
+            alt="Logo"
+            id="logo">
+
+        <div>
+
+            <h1>
+                CONOCIENDO TARMA
+            </h1>
+
+            <p>
+                Juego educativo interactivo
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="hud">
+
+        <div class="hudCard">
+
+            ⭐
+
+            <span id="score">
+                0
+            </span>
+
+        </div>
+
+
+        <div class="hudCard">
+
+            📍
+
+            <span id="progress">
+                0/5
+            </span>
+
+        </div>
+
+
+        <div class="hudCard">
+
+            ⏱
+
+            <span id="timer">
+                00:00
+            </span>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- =====================================================
+     MAPA
+===================================================== -->
+
+<main>
+
+    <div id="map"></div>
+
+</main>
+
+
+<!-- =====================================================
+     PANEL
+===================================================== -->
+
+<aside id="panel">
+
+    <button
+        id="closePanel"
+        type="button">
+
+        <i class="fa-solid fa-xmark"></i>
+
+    </button>
+
+
+    <img
+        id="streetImage"
+        src=""
+        alt="Imagen">
+
+
+    <h2 id="streetName"></h2>
+
+
+    <h3>
+        📍 Ubicación
+    </h3>
+
+    <p id="streetLocation"></p>
+
+
+    <h3>
+        📖 Historia
+    </h3>
+
+    <div
+        id="streetHistory"
+        class="scrollBox">
+    </div>
+
+
+    <h3>
+        🏛 Representa
+    </h3>
+
+    <p id="streetRepresents"></p>
+
+
+    <h3>
+        ❓ ¿Por qué lleva este nombre?
+    </h3>
+
+    <p id="streetWhy"></p>
+
+
+    <h3>
+        💬 Mensaje
+    </h3>
+
+    <p id="streetMessage"></p>
+
+
+    <h3>
+        👤 Personaje
+    </h3>
+
+    <div class="personCard">
+
+        <img
+            id="characterImage"
+            src=""
+            alt="">
+
+        <div>
+
+            <h4 id="characterName"></h4>
+
+            <p id="characterBio"></p>
+
+        </div>
+
+    </div>
+
+
+    <h3>
+        📅 Fechas importantes
+    </h3>
+
+    <ul id="importantDates"></ul>
+
+
+    <h3>
+        💡 Curiosidad
+    </h3>
+
+    <p id="curiosity"></p>
+
+
+    <h3>
+        🔊 Audio
+    </h3>
+
+    <audio
+        id="audioPlayer"
+        controls>
+    </audio>
+
+
+   <h3>🎥 Video</h3>
+
+<a
+    id="videoButton"
+    href="#"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="videoDriveButton">
+    ▶ VER VIDEO
+</a>
+
+
+    <button
+        id="startQuiz"
+        type="button">
+
+        Comenzar Pregunta
+
+    </button>
+
+</aside>
+
+
+<!-- =====================================================
+     QUIZ
+===================================================== -->
+
+<section id="quiz">
+
+    <div class="quizBox">
+
+        <h2 id="question"></h2>
+
+        <div id="answers"></div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     PANTALLA FINAL
+===================================================== -->
+
+<section id="finish">
+
+    <div class="finishBox">
+
+        <img
+            src="img/trophy.png"
+            alt="Trofeo">
+
+        <h2>
+            ¡FELICITACIONES!
+        </h2>
+
+        <p>
+            Has recorrido las cinco calles.
+        </p>
+
+        <h1 id="finalScore">
+            0
+        </h1>
+
+        <p>
+
+            Tiempo empleado:
+
+            <strong id="finalTime">
+                00:00
+            </strong>
+
+        </p>
+
+        <button
+            id="restart"
+            type="button">
+
+            Volver a jugar
+
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     SONIDOS
+===================================================== -->
+
+<audio
+    id="correctSound"
+    src="audio/efectos/correct.mp3">
+</audio>
+
+<audio
+    id="wrongSound"
+    src="audio/efectos/wrong.mp3">
+</audio>
+
+<audio
+    id="victorySound"
+    src="audio/efectos/victory.mp3">
+</audio>
+
+<audio
+    id="backgroundMusic"
+    src="audio/musica/music.mp3"
+    loop>
+</audio>
+
+
+<!-- =====================================================
+     LIBRERÍAS
+===================================================== -->
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+
+<!-- =====================================================
+     JAVASCRIPT DEL JUEGO
+===================================================== -->
+
+<script src="app.js"></script>
+
+<script src="js/map.js"></script>
+
+<script src="js/panel.js"></script>
+
+<script src="js/quiz.js"></script>
+
+<script src="js/timer.js"></script>
+
+<script src="js/score.js"></script>
+
+<script src="js/sounds.js"></script>
+
+<script src="js/effects.js"></script>
+
+<script src="js/storage.js"></script>
+
+
+</body>
+
+</html>

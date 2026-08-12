@@ -1,0 +1,111 @@
+[
+    {
+        "id": 1,
+        "lugar": 1,
+        "pregunta": "¿Cómo se llamaba antiguamente la Avenida Manuel A. Odría?",
+        "opciones": ["Alameda Lima", "Alameda Briceño", "Alameda Grau"],
+        "correcta": 1
+    },
+    {
+        "id": 2,
+        "lugar": 1,
+        "pregunta": "¿En qué año se inauguró la ampliación de la antigua Alameda Briceño?",
+        "opciones": ["1792", "1866", "1897"],
+        "correcta": 2
+    },
+    {
+        "id": 3,
+        "lugar": 1,
+        "pregunta": "¿Por qué recibió el nombre de Avenida Manuel A. Odría?",
+        "opciones": ["En homenaje al presidente Manuel A. Odría", "En homenaje a Ramón Castilla", "En homenaje a Adolfo Vienrich"],
+        "correcta": 0
+    },
+
+    {
+        "id": 4,
+        "lugar": 2,
+        "pregunta": "¿En qué año se abrió el nuevo camino hacia Tarmatambo?",
+        "opciones": ["1792", "1866", "1955"],
+        "correcta": 1
+    },
+    {
+        "id": 5,
+        "lugar": 2,
+        "pregunta": "¿Quién impulsó la apertura del nuevo camino?",
+        "opciones": ["Ciriaco Pacheco", "Manuel A. Odría", "Ramón Castilla"],
+        "correcta": 0
+    },
+    {
+        "id": 6,
+        "lugar": 2,
+        "pregunta": "¿Cómo se llamó esta vía antes de llamarse Avenida Pacheco?",
+        "opciones": ["Alameda Grau", "Alameda Briceño", "Calle del Comercio"],
+        "correcta": 0
+    },
+
+    {
+        "id": 7,
+        "lugar": 3,
+        "pregunta": "¿Cómo se llamaba antiguamente la Avenida Castilla?",
+        "opciones": ["Alameda Lima", "Alameda Briceño", "Alameda Grau"],
+        "correcta": 0
+    },
+    {
+        "id": 8,
+        "lugar": 3,
+        "pregunta": "¿En honor a quién se llamó Avenida Castilla?",
+        "opciones": ["Adolfo Vienrich", "Ramón Castilla", "Segundo Briceño"],
+        "correcta": 1
+    },
+    {
+        "id": 9,
+        "lugar": 3,
+        "pregunta": "¿Qué construcción servía como ingreso a Tarma desde Lima?",
+        "opciones": ["La Catedral Santa Ana", "El Arco o Portada de Castilla", "El Estadio Unión Tarma"],
+        "correcta": 1
+    },
+
+    {
+        "id": 10,
+        "lugar": 4,
+        "pregunta": "¿En honor a quién lleva su nombre la Avenida Adolfo Vienrich?",
+        "opciones": ["Adolfo Vienrich de la Canal", "Manuel A. Odría", "Ramón Castilla"],
+        "correcta": 0
+    },
+    {
+        "id": 11,
+        "lugar": 4,
+        "pregunta": "¿Qué estudió y recopiló Adolfo Vienrich?",
+        "opciones": ["La cultura andina, cuentos y tradiciones", "Las especies de animales marinos", "Las construcciones modernas"],
+        "correcta": 0
+    },
+    {
+        "id": 12,
+        "lugar": 4,
+        "pregunta": "¿Qué cargo ocupó Adolfo Vienrich en Tarma en 1905?",
+        "opciones": ["Presidente del Perú", "Alcalde de la provincia", "Director del colegio"],
+        "correcta": 1
+    },
+
+    {
+        "id": 13,
+        "lugar": 5,
+        "pregunta": "¿Cómo se llamaba antiguamente el Jirón Lima?",
+        "opciones": ["Calle del Comercio", "Avenida Briceño", "Alameda Grau"],
+        "correcta": 0
+    },
+    {
+        "id": 14,
+        "lugar": 5,
+        "pregunta": "¿Por qué se llamaba Calle del Comercio?",
+        "opciones": ["Porque allí había muchas tiendas, boticas y mercados", "Porque allí vivían solamente agricultores", "Porque allí se encontraba un aeropuerto"],
+        "correcta": 0
+    },
+    {
+        "id": 15,
+        "lugar": 5,
+        "pregunta": "¿Cerca de qué lugar importante se encuentra el Jirón Lima?",
+        "opciones": ["La Plaza de Armas de Tarma", "El aeropuerto de Lima", "La Plaza de Armas de Cusco"],
+        "correcta": 0
+    }
+]

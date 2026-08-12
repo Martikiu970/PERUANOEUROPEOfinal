@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "nombre": "Manuel Arturo Odría Amoretti",
+        "imagen": "img/personajes/odria.jpg",
+        "descripcion": "Militar y político peruano nacido en Tarma el 26 de noviembre de 1897. Fue Presidente del Perú entre 1948 y 1956. Durante su gobierno impulsó diversas obras públicas en su tierra natal, como la Catedral Santa Ana, la Gran Unidad Escolar San Ramón, el Hotel de Turistas de Tarma y el Hospital Félix Mayorca Soto. Es uno de los personajes más reconocidos nacidos en Tarma."
+    },
+    {
+        "id": 2,
+        "nombre": "Ciriaco Pacheco",
+        "imagen": "img/personajes/pacheco.jpg",
+        "descripcion": "Subprefecto de la Provincia de Tarma, se estima que nació entre 1810 y 1830. En agosto de 1866 impulsó y lideró la apertura de una nueva vía que conectó Tarma con Tarmatambo, Huaricolca y las provincias vecinas de Jauja y Huancayo, en reemplazo de los antiguos y difíciles caminos de herradura Patana y Shalacaca. En su honor, la vía terminó llamándose Avenida Pacheco."
+    },
+    {
+        "id": 3,
+        "nombre": "Ramón Castilla y Marquesado",
+        "imagen": "img/personajes/castilla.jpg",
+        "descripcion": "Militar y estadista peruano, nació en Tarapacá el 31 de agosto de 1797. Peleó en las batallas de Chacabuco y Ayacucho. El 31 de diciembre de 1855 dio la ley que restableció a Tarma como provincia. Donó las campanas de la Iglesia Santa Ana, apoyó económicamente al Colegio San Ramón y en 1862 donó a Tarma el Reloj Público construido en Inglaterra. En agradecimiento, la ciudad construyó el Arco de la Portada con su busto y nombró la avenida en su honor."
+    },
+    {
+        "id": 4,
+        "nombre": "Adolfo Vienrich de la Canal",
+        "imagen": "img/personajes/vienrich.jpg",
+        "descripcion": "Escritor, periodista, farmacéutico, folclorista e indigenista, nacido en Lima en 1867 y vinculado a Tarma desde niño. Estudió en el Colegio San Ramón de Tarma y luego en la Universidad Nacional Mayor de San Marcos. Destacó por recopilar y difundir la literatura oral en quechua mediante obras como 'Azucenas quechuas' y 'Fábulas quechuas'. Fue alcalde de la provincia de Tarma en 1905 y falleció en la ciudad en 1908."
+    },
+    {
+        "id": 5,
+        "nombre": "Ciudad de Lima",
+        "imagen": "img/personajes/lima.jpg",
+        "descripcion": "Capital del Perú desde la época virreinal. Tarma perteneció al Arzobispado de Lima durante la Colonia, lo que motivó que una de sus principales calles llevara su nombre en homenaje a la capital, centro político, religioso y comercial del virreinato y luego de la República."
+    }
+]
